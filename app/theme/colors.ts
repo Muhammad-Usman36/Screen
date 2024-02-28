@@ -3,40 +3,38 @@
 const palette = {
   neutral100: "#FFFFFF",
   neutral200: "#F4F2F1",
-  neutral300: "#D7CEC9",
-  neutral400: "#B6ACA6",
-  neutral500: "#978F8A",
-  neutral600: "#564E4A",
+  neutral300: "#DADDDD",
+  neutral400: "#6C6C6C",
+  neutral500: "#D4D4D4",
+  neutral600: "#677789",
   neutral700: "#3C3836",
   neutral800: "#191015",
   neutral900: "#000000",
-
-  primary100: "#F4E0D9",
-  primary200: "#E8C1B4",
-  primary300: "#DDA28E",
-  primary400: "#D28468",
-  primary500: "#C76542",
-  primary600: "#A54F31",
-
-  secondary100: "#DCDDE9",
-  secondary200: "#BCC0D6",
-  secondary300: "#9196B9",
-  secondary400: "#626894",
-  secondary500: "#41476E",
-
-  accent100: "#FFEED4",
-  accent200: "#FFE1B2",
-  accent300: "#FDD495",
-  accent400: "#FBC878",
-  accent500: "#FFBB50",
-
+  primary100: "#A6FFFC",
+  primary200: "#89FFFB",
+  primary300: "#4DFFF8",
+  primary400: "#03FFF6",
+  primary500: "#00D6CE",
+  secondary100: "#4836E8",
+  secondary200: "#2C19D7",
+  secondary300: "#2414B1",
+  secondary400: "#1C0F88",
+  secondary500: "#10094F",
+  tertiary100: "#A397E9",
+  tertiary200: "#8C7DE3",
+  tertiary300: "#7664DE",
+  tertiary400: "#392F8A",
+  tertiary500: "#4830D3",
+  accent100: "#6E61E0",
+  accent200: "#4C3CD9",
+  accent300: "#3727C6",
+  accent400: "#2F21A8",
+  accent500: "#22187A",
   angry100: "#F2D6CD",
-  angry500: "#C03403",
-
+  angry500: "red",
   overlay20: "rgba(25, 16, 21, 0.2)",
   overlay50: "rgba(25, 16, 21, 0.5)",
-} as const
-
+} as const;
 export const colors = {
   /**
    * The palette is available to use, but prefer using the name.
@@ -81,4 +79,4 @@ export const colors = {
    *
    */
   errorBackground: palette.angry100,
-}
+};
